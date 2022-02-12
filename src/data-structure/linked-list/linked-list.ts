@@ -376,7 +376,7 @@ export class LinkedList<T> implements Iterable<T> {
 
   /**
    * Remove all nodes from the linkedlist
-   * Complexity - O(n)
+   * Complexity - O(1)
    */
   public clear(): void {
     this.list = undefined;
